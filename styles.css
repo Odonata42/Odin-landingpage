@@ -1,0 +1,23 @@
+img {
+    width: 100px;
+   
+  }
+
+body {
+    /* background-color: blue; */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-left{
+
+}
+
+.header-right{
+    display:flex;
+    justify-content:space-between;
+}
