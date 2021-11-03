@@ -1,23 +1,140 @@
-img {
-    width: 100px;
-   
-  }
-
 body {
-    /* background-color: blue; */
+    font-family: 'Courier New', Courier, monospace;
+    margin:0px;
+    background-color: #944033;
+    text-align: center;
 }
-
+/* Navbar */
 .nav {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    padding:20px 60px;
 }
 
-.header-left{
-
+.header-logo{
+    font-weight:900;
+    font-size: 24px;
+    color:white;
 }
 
-.header-right{
+.header-nav{
     display:flex;
-    justify-content:space-between;
+    gap:16px;
+    list-style-type: none;
 }
+
+.header-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+/* Hero */
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    gap:16px;
+    padding: 16px 60px;
+    text-align: left;
+}
+
+.hero-img img {
+    width: 200px;
+    flex:none;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #DDB48A;
+    color: #492603;
+    font-weight: 600;
+  }
+
+p, .hero-header{
+    color:#DD958A;
+  }
+
+/* main content */
+h2 {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+.main-content{
+    background-color: white;
+    padding: 20px 0;
+}
+.content{
+    display:flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+    padding:20px 60px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+.content img{
+  border-radius: 25px;
+  width: 200px;
+  }
+
+/* Quote */
+
+  .quote-cont{
+    display:flex;
+    flex-direction: column;  
+    padding:60px;
+    text-align: center;
+    font-style: italic;
+    background-color: #DDB48A;
+  }
+  .author{
+      font-weight: bold;
+      font-style: normal;
+      text-align: right;
+      padding: 0px 60px;
+  }
+
+  /* CTA Modal */
+
+  /* .cta-cont{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:40px;
+    
+  } */
+.cta{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    background-color: white;
+    color:#490D03;
+    max-width: 600px;
+    border-radius: 8px;
+    padding:18px;
+    margin:50px auto;
+  }
+  .cta-text{
+      max-width:500px;
+  }
+  .cta-title{
+      font-weight: 900;
+  }
+
+  /* footer */
+
+  .footer{
+      background-color: #023612;
+      text-align: center;
+      padding:30px;
+      color:white;
+  }
